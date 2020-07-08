@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/klmn"
+    tools:context="com.example.lenovo.lovecalculator.Main2Activity"
+
+    >
+
+    <TextView
+        android:id="@+id/car"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:gravity="center"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textColor="#e9dfe2"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yahoo\nCongo!!!"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/car"
+        android:layout_alignStart="@+id/car"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_above="@+id/car"
+        android:textColor="#e9dfe2"/>
+
+
+</RelativeLayout>
